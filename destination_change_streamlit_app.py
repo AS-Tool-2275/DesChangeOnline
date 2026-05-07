@@ -34,14 +34,6 @@ with st.expander("Quick guide", expanded=False):
         1. `PlanDetailTimeline.csv` raw export file
         2. `Production Schedule.csv` raw export file
         3. `DueDateCalc.xlsx`
-
-        **Main logic:**
-        - `F Wk3` is taken from Production Schedule where `S/F/P = F` only.
-        - PlanDetailTimeline is converted from ETA to ETD using the selected warehouse offset mode.
-        - The backend logic is preserved from `destination_change_unified_flow.py`, including:
-          - `New SI = Original SI Before F Wk3 + F Wk3`
-          - `New SI-SS = Original SI-SS Before F Wk3 + F Wk3`
-        - The generated Excel output follows the final unified flow writer.
         """
     )
 
