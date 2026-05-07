@@ -33,7 +33,7 @@ with st.expander("Quick guide", expanded=False):
         **Upload 3 input files:**
         1. `PlanDetailTimeline.csv` raw export file
         2. `Production Schedule.csv` raw export file
-        3. `DueDateCalc.xlsx`
+        3. `DueDateCalc.xlsx` (Data Administrator -> Product Planners --> Expected Expected Delivery Date Calculation)
         """
     )
 
