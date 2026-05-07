@@ -17,6 +17,6 @@ Upload these 3 inputs in the app:
 
 1. PlanDetailTimeline raw CSV
 2. Production Schedule raw CSV
-3. DueDateCalc Excel
+3. DueDateCalc Excel (Data Administrator -> Product Planners --> Expected Expected Delivery Date Calculation)
 
 Then choose Target Week, Current Week, offset mode, optional priority rules, run, and download the Excel output.
